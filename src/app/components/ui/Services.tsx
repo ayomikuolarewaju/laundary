@@ -38,10 +38,10 @@ const servicetypes = [
           
           </div>
           <div>
-            <div className='text-3xl font-bold text-center capitalize font-serif'>
+            <div className='text-3xl font-bold text-center capitalize font-serif justify-center items-center text-green-950 mb-5 mx-auto'>
               <h2>what we offer</h2>  
             </div>
-            <div className='grid grid-cols-2 items-center justify-center w-[500px] mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center w-[500px] mx-auto'>
              {
                 servicetypes.map((type,index:number)=>(
                     <div key={index} >

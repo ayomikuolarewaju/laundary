@@ -12,7 +12,7 @@ export default function Home() {
         <Header />
       </div>
       <div className="flex justify-center items-center space-y-[20px] mb-5">
-        <div className="flex-col text-green-900 gap-y-[50px] h-[200px] p-2">
+        <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
           <div className="mb-2">
             <h1 className="capitalize text-4xl font-bold font-serif">your laundary.</h1>
           <h1 className="capitalize font-bold text-3xl font-serif">our priority</h1>
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
         </div>
-        <div>
+        <div className="md:flex hidden">
           <Image src={banner} alt="banner" width={200} height={200}/> 
         </div>
         
