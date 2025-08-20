@@ -14,7 +14,7 @@ import basket from '@/images/Laurel-garments-5.png'
 
 function Services() {
 
-const servicetypes:Types = [
+const servicetypes = [
     {
         title : 'wash & fold',img:towel,description:'expert cleaning and folding of your laundary',btn:'add to order'
     },
@@ -43,13 +43,13 @@ const servicetypes:Types = [
             </div>
             <div className='grid grid-cols-2 items-center justify-center w-[500px] mx-auto'>
              {
-                servicetypes.map((type:Types,index:number)=>(
+                servicetypes.map((type,index:number)=>(
                     <div key={index} >
                     <div>
                         <Image src={type.img} alt='image' width={300} />
                         <h3 className="text-green-950 capitalize text-lg font-bold pl-4 pt-3">{type.title}</h3>
                         <p className="w-[250px] pl-5 pt-3">{type.description}</p>
-                        <button className="ml-5 p-2 text-white bg-green-950 text-white text-center rounded-md mt-3">{type.btn}</button>
+                        <button className="ml-5 p-2 text-white bg-green-950 text-center rounded-md mt-3">{type.btn}</button>
                     </div>
                   </div>
                 ))
