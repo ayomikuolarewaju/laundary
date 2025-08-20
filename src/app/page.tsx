@@ -21,16 +21,16 @@ export default function Home() {
             <p className="font-medium">Reliable laundary care <br/> with modern convenience </p>
           </div>
           <div className="flex-col gap-2 w-[200px] h-[100px] mb-2">
-          <div className="bg-green-600 text-white p-4 rounded-[20px] ring-1 ring-green-50 text-center font-bold mb-2 "> 
+          <div className="bg-green-600 text-white p-4 rounded-[20px] ring-1 ring-green-50 text-center font-bold mb-2 cursor-pointer hover:bg-green-700 transition-all duration-300"> 
             <button>Schedule Pickup</button>
           </div>
-          <div className="ring-2 ring-green-900 p-4 rounded-[20px] text-green-900 font-bold text-center mb-2 w-[130px]">
+          <div className="ring-2 ring-green-900 p-4 rounded-[20px] text-green-900 font-bold text-center mb-2 w-[130px] cursor-pointer hover:bg-gray-200 transition-all duration-300 ">
             <button>View Plans</button>
           </div>
         </div>
         </div>
         <div>
-          <Image src={banner} alt="banner" width={200} height={200}/>
+          <Image src={banner} alt="banner" width={200} height={200}/> 
         </div>
         
       </div>
