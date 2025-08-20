@@ -1,8 +1,7 @@
 
+import Image from 'next/image';
 import Link from 'next/link';
-import {Pacifico} from 'next/font/google';
-
-const pacifico = Pacifico({ subsets: ['latin'], weight: '400' });
+import logo from '@/images/Laurel-garments-logo.png'
 
 export default function Footer() {
   return (
@@ -10,9 +9,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-blue-600 mb-4 "  style={{fontFamily:pacifico.style.fontFamily}}>
-              Ajootu
-            </h3>
+            <Link href="/" className="text-2xl font-bold text-green-900 hover:text-green-600 transition-colors">
+              <Image src={logo} alt='logo' width={100} height={100}/>
+            </Link>
             <p className="text-gray-600 mb-4 max-w-md">
               Empowering teams with seamless collaboration tools. Create groups, manage members, and work together efficiently with our intuitive platform.
             </p>

@@ -1,7 +1,7 @@
 
-'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
+import logo from '@/images/Laurel-garments-logo.png'
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex items-center justify-center">
           <div className="flex md:flex-col items-center space-y-[50px] mt-5 md:space-y-0  md:justify-between w-full">
             <Link href="/" className="text-2xl font-bold text-green-900 hover:text-green-600 transition-colors">
-              Ajootu
+              <Image src={logo} alt='logo' width={100} height={100}/>
             </Link>
             <nav className="hidden md:flex space-x-6 mt-10 text-green-900 ">
               <Link href="/" className="hover:text-green-600 font-bold transition-color">
