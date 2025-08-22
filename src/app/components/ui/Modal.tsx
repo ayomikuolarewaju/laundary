@@ -46,7 +46,7 @@ export default function Modal({ isOpen, onClose, title, children, size = 'md' }:
               className="text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
             >
               <div className="w-6 h-6 flex items-center justify-center">
-                <i className="ri-close-line text-xl"></i>
+                <i className="ri-close-line text-xl">hello</i>
               </div>
             </button>
           </div>

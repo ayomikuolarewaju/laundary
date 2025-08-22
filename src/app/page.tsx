@@ -3,7 +3,10 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import banner from '@/images/Laurel-garments-ero.png'
 import Services from "./components/ui/Services";
-
+import Activity from "./components/ui/Activity";
+import Plans from "./components/ui/Plans";
+import Lounge from "./components/ui/Lounge"
+import Pocket from "./components/ui/Pocket"
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
       <div>
         <Header />
       </div>
-      <div className="flex justify-center items-center space-y-[20px] mb-5">
+      <div className="flex justify-center items-center space-y-[20px] w-[700px] mx-auto mb-5">
         <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
           <div className="mb-2">
             <h1 className="capitalize text-4xl font-bold font-serif">your laundary.</h1>
@@ -35,6 +38,10 @@ export default function Home() {
         
       </div>
       <Services/>
+      <Activity/>
+      <Plans/>
+      <Lounge/>
+      <Pocket/>
       <Footer/>
     </div>
   );
