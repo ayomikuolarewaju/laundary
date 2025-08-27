@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <Header />
       </div>
-      <div className="flex justify-center items-center space-y-[20px] w-[700px] mx-auto mb-5">
+      <div className="flex md:justify-center md:items-center space-y-[20px] md:w-[700px] mx-auto mb-5 overflow-hidden">
         <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
           <div className="mb-2">
             <h1 className="capitalize text-4xl font-bold font-serif">your laundary.</h1>

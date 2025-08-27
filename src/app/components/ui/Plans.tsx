@@ -28,7 +28,7 @@ const servicetypes = [
 
 
   return (
-    <div className="flex justify-center items-center bg-white mb-[50px]">
+    <div className="flex md:justify-center md:items-center bg-white mb-[50px]overflow-hidden">
         <div className="flex-col justify-center items-center text-green-900 gap-y-[50px] w-full p-2">
           <div className="m-5 text-center">
             <h1 className="capitalize text-2xl font-bold font-serif">Plans</h1>
@@ -38,7 +38,7 @@ const servicetypes = [
             <div className='text-2xl text-center capitalize font-serif justify-center items-center text-green-950 mb-5 mx-auto'>
               <h2>choose a subscription plan that suits your needs.</h2>  
             </div>
-            <div className='flex items-center justify-center w-[700px] mx-auto'>
+            <div className='md:flex md:items-center md:justify-center md:w-[700px] mx-auto'>
              {
                 servicetypes.map((type,index:number)=>(
                     <div key={index} className='bg-white rounded-md mb-10'>

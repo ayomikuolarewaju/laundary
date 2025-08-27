@@ -31,7 +31,7 @@ const servicetypes = [
 
 
   return (
-    <div className="flex justify-center items-center bg-white pb-10">
+    <div className="flex md:justify-center md:items-center overflow-hidden bg-white mx-auto pb-10">
         <div className="flex-col justify-center items-center text-green-900 gap-y-[50px] w-full p-2">
           <div className="m-5 text-center">
             <h1 className="capitalize text-2xl font-bold font-serif">Services</h1>
@@ -41,7 +41,7 @@ const servicetypes = [
             <div className='text-3xl font-bold text-center capitalize font-serif justify-center items-center text-green-950 mb-5 mx-auto'>
               <h2>what we offer</h2>  
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center w-[700px] mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 md:items-center md:justify-center md:w-[700px] mx-auto'>
              {
                 servicetypes.map((type,index:number)=>(
                     <div key={index} >

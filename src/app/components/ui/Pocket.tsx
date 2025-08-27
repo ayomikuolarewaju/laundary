@@ -5,7 +5,7 @@ import banner from '@/images/Laurel-garments-ero.png';
 const Pocket = ()=>{
     return (
 
-        <div className="flex justify-center items-center space-y-[20px] w-full mx-auto  bg-white p-10">
+        <div className="md:flex md:justify-center md:items-center space-y-[20px] w-full mx-auto  bg-white p-10 overflow-hidden">
            <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
                <div className="mb-2">
                   <h1 className="capitalize text-5xl font-bold font-serif mb-10">
