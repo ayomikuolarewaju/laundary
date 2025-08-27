@@ -14,7 +14,7 @@ const Pocket = ()=>{
                 <div className="mb-2">
                     <p className="font-medium">Book pickups,manage plans <br/> and track your laundry- <br/> all from your phone.</p>
                 </div>
-                <div className="bg-green-600 text-white p-4 rounded-[20px] ring-1 ring-green-50 text-center font-bold mb-2 cursor-pointer hover:bg-green-700 transition-all duration-300 mt-[70px]"> 
+                <div className="bg-green-600 text-white p-4 rounded-[20px] ring-1 ring-green-50 text-center font-bold mb-2 cursor-pointer hover:bg-green-700 transition-all duration-300 mt-[70px] w-[200px]"> 
                 <button>Download Now</button>
             </div>
             </div>
