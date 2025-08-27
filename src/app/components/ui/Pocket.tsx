@@ -5,8 +5,8 @@ import banner from '@/images/Laurel-garments-ero.png';
 const Pocket = ()=>{
     return (
 
-        <div className="md:flex md:justify-center md:items-center space-x-[70px] w-[700px] mx-auto  bg-white overflow-hidden p-[50px]">
-           <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
+        <div className="md:flex md:justify-center md:items-center space-[10px] md:w-[700px] mb-10 mx-auto overflow-hidden p-[20px]">
+           <div className="flex-col text-green-900 gap-y-[50px] p-2">
                <div className="mb-2">
                   <h1 className="capitalize text-5xl font-bold font-serif mb-10">
                      laundary in <br/> your pocket</h1>
