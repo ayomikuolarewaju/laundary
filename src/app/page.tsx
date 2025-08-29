@@ -10,11 +10,11 @@ import Pocket from "./components/ui/Pocket"
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#e1faeb]">
+    <div className="min-h-screen flex flex-col bg-[#e1faeb] max-w-screen">
       <div>
         <Header />
       </div>
-      <div className="flex md:justify-center md:items-center space-y-[20px] md:w-[700px] mx-auto mb-5 overflow-hidden">
+      <div className="flex md:justify-between md:items-center space-y-[20px] md:w-[900px] mx-auto mb-5 overflow-hidden">
         <div className="flex-col text-green-900 gap-y-[50px] h-[300px] p-2">
           <div className="mb-2">
             <h1 className="capitalize text-4xl font-bold font-serif">your laundary.</h1>

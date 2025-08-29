@@ -31,13 +31,13 @@ function Activity() {
 ]
 
   return (
-    <div className="flex md:justify-center md:items-center mb-10 md:w-[700px] mx-auto overflow-hidden">
+    <div className="flex md:justify-center md:items-center mb-10 max-w-screen mx-auto overflow-hidden">
         <div className="flex-col justify-center items-center text-green-900 gap-y-[50px] w-full p-5">
           <div>
             <div className='text-3xl font-bold text-center capitalize font-serif justify-center items-center text-green-950 my-5 mx-auto'>
               <h2>How it works</h2>  
             </div>
-            <div className='md:flex  md:items-center md:justify-center md:w-[700px] mx-auto'>
+            <div className='md:flex  md:items-center md:justify-center md:w-[900px] md:mx-auto'>
              {
                 servicetypes.map((type,index:number)=>(
                     <div key={index} >
